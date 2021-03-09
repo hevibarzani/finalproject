@@ -1,0 +1,168 @@
+<?php
+$cn = mysqli_connect("localhost", "root", "", "db_admission");
+
+
+?>
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!--============================== Required meta tags ===========================-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--============================= Fonts =======================================-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100i,300,300i,400,700" rel="stylesheet">
+
+    <!--============================= CSS =======================================-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="mystyle.css">
+
+    <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
+
+    <title>بنكه‌ی زانیاری قوتابیان</title>
+    <link rel="shourtcut icon" type="image/png" href="assets/img/favicon.png">
+
+    
+  
+</head>
+
+<body>
+    <!--================= Header-area ======================-->
+    <div class="header-area header-absoulate">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="logo">
+                        <a href="">
+                            <i class="fa fa-home"></i>
+                            <span  style="font-family:'NRT Reg';">زانیاری قوتابیان <span id="na">بنكه‌ی</span></span>
+                        </a>
+                    </div>
+                </div>
+    <!--================== Main menu-area ====================-->
+                <div class="col-md-7">
+                    <div class="main-menu">
+                        <?php include('component/menu.php'); ?>
+                    </div>
+                </div>
+                <div class="col-md-1 text-right">
+                    <span class="social-icon">
+                        <a href=""><i class="fa fa-facebook"></i></a>
+                        <a href=""><i class="fa fa-google-plus"></i></a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--======================= Slide-area =======================-->
+    <div class="welcome-area">
+        <div class="owl-carousel slider-content">
+            <div class="single-slider-item slider-bg-1">
+                <div class="slider-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="slide-text" >
+                                    <h2 >بنكه‌ی زانیاری قوتابیان</h2>
+                                    <p>بۆ تۆمار كردنی قوتابی
+                                       
+                                    </p>
+
+                                    <a href="" class="boxed-btn">زیاتر ببینه‌ <i class="fa fa-long-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-slider-item slider-bg-2">
+                <div class="slider-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="slide-text">
+                                    <h2>سیسته‌می زیره‌كی قوتابیان</h2>
+                                    <p>بۆ به‌ڕێوه‌بردنی قوتابیان<br>
+                                        زۆر به‌ئاسانی و به‌كه‌مترین كات
+                                    </p>
+
+                                    <a href="" class="boxed-btn">زیاتر ببینه‌ <i class="fa fa-long-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--=========================== Content-area ============================-->
+    <div class="content-area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <?php include ('component/controller.php'); ?>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--========================== Footer-area ===============================-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="widget">
+                        <div class="logo">
+                            <a href="">
+                                <i class="fa fa-home"></i>
+                                <span style=>قوتابخانه‌</span>
+                           <p style=>
+                           بنكه‌ی زانیاری قوتابیان
+                          بۆ تۆمار كردنی قوتابی
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="widget">
+                        <h3 >به‌شه‌كان</h3>
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#">سه‌ره‌كی</a></li>
+                                <li><a href="?a=student_add" >تۆماركردن</a></li>
+                                <li><a href="?a=view" >قوتابیه‌كان</a></li>
+                               
+                                <li><a href="#" >په‌یوه‌ندی</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h3 >په‌یوه‌ندی</h3>
+                    <span class="social-icon">
+                        <a href=""><i class="fa fa-facebook"></i></a>
+                        <a href=""><i class="fa fa-google-plus"></i></a>
+                    </span>
+                </div>
+                <p class="copy-right" >هه‌موو مافێكی پارێزراوه‌ بۆ &copy;بنكه‌ی زانیاری قوتابیان</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
